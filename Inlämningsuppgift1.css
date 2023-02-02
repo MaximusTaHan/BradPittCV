@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Georgia;
+}
+
+html {
+    background-color: hsl(40, 50%, 60%);
+    height: 100vh;
+}
+
+body {
+    background-color: hsl(40, 100%, 85%);
+    min-height: 100vh;
+}
+
+img {
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    text-align: center;
+    font-style: italic;
+    border-bottom: 1px solid hsl(40, 50%, 60%);
+    margin: 0px 20px 0px 20px;
+    padding: 20px 0px 20px 0px;
+}
+
+main{
+    padding: 0px 20px 0px 20px;
+}#content_abouteMe{
+    padding: 20px 0px 20px 0px;
+    line-height: 1.5em;
+    border-bottom: 1px solid hsl(40, 50%, 60%);
+}
+#content_abouteMe div :nth-child(2){
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#content_abouteMe div {
+margin-top: 10px;
+}
+h1{
+    font-weight: normal;
+}
+h2 {
+    text-align: center;
+    font-weight: normal;
+    margin: 15px 0px 15px 0px;
+}
+
+#accomplishments {
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(40, 50%, 60%);
+
+}
+
+ul{
+    margin-left: 20px;
+    list-style-type: square;
+    line-height: 1.5em;
+}
+
+.movie_title{
+    font-style: italic;
+}
+.winnerWord {
+    color: hsl(40, 100%, 35%);
+    font-weight: bold;
+    font-family: 'Segoe UI';
+}
+.nomineeWord {
+    color: hsl(0, 0%, 50%);
+    font-weight: bold;
+    font-family: 'Segoe UI';
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+
+@media (min-width: 800px){
+    #accomplishments {
+        display: flex;
+    }
+    #accomplishments div{
+        width: 50%;
+    }
+    img {
+        margin-right: 10px;
+        height: 300px;
+    }
+    #content_abouteMe {
+        display: flex;
+    }
+    #content_abouteMe div {
+    margin-top: 0px;
+    }
+}
+
+@media (min-width: 1500px) {
+    body {
+        max-width: 1500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
