@@ -13,6 +13,9 @@ html {
 body {
     background-color: hsl(40, 100%, 85%);
     min-height: 100vh;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img {
@@ -22,7 +25,7 @@ img {
     margin-right: auto;
 }
 
-header{
+header {
     text-align: center;
     font-style: italic;
     border-bottom: 1px solid hsl(40, 50%, 60%);
@@ -30,23 +33,29 @@ header{
     padding: 20px 0px 20px 0px;
 }
 
-main{
+main {
     padding: 0px 20px 0px 20px;
-}#content_abouteMe{
+}
+
+#content_abouteMe {
     padding: 20px 0px 20px 0px;
     line-height: 1.5em;
     border-bottom: 1px solid hsl(40, 50%, 60%);
 }
-#content_abouteMe div :nth-child(2){
+
+#content_abouteMe div :nth-child(2) {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 #content_abouteMe div {
-margin-top: 10px;
+    margin-top: 10px;
 }
-h1{
+
+h1 {
     font-weight: normal;
 }
+
 h2 {
     text-align: center;
     font-weight: normal;
@@ -59,55 +68,53 @@ h2 {
 
 }
 
-ul{
+ul {
     margin-left: 20px;
     list-style-type: square;
     line-height: 1.5em;
 }
 
-.movie_title{
+.movie_title {
     font-style: italic;
 }
+
 .winnerWord {
     color: hsl(40, 100%, 35%);
     font-weight: bold;
     font-family: 'Segoe UI';
 }
+
 .nomineeWord {
     color: hsl(0, 0%, 50%);
     font-weight: bold;
     font-family: 'Segoe UI';
 }
 
-footer{
+footer {
     text-align: center;
     margin-bottom: 20px;
     line-height: 1.5em;
 }
 
-@media (min-width: 800px){
+@media (min-width: 800px) {
     #accomplishments {
         display: flex;
     }
-    #accomplishments div{
+
+    #accomplishments div {
         width: 50%;
     }
+
     img {
         margin-right: 10px;
         height: 300px;
     }
+
     #content_abouteMe {
         display: flex;
     }
-    #content_abouteMe div {
-    margin-top: 0px;
-    }
-}
 
-@media (min-width: 1500px) {
-    body {
-        max-width: 1500px;
-        margin-left: auto;
-        margin-right: auto;
+    #content_abouteMe div {
+        margin-top: 0px;
     }
 }
